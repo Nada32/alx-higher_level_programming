@@ -4,7 +4,7 @@ if __name__ == "__main__":
     n = len(argv)
     if n == 2:
         print("{} argument:".format(n - 1), end="")
-    elif n > 0:
+    elif n > 1:
         print("{} arguments:".format(n - 1), end="")
     elif n == 1:
         print("{} arguments.".format(n - 1), end="")
