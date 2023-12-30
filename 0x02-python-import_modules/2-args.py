@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     from sys import argv
     n = len(argv)
-    print("{} arguments".format(n), end="")
+    print("{} arguments".format(n - 1), end="")
     if n > 0:
         print("\n", end="")
     elif n == 0:
