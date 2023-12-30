@@ -6,4 +6,4 @@ if __name__ == "__main__":
     for i in range(1, n):
         d = int(i)
         z = z + d
-        print("{:d}".format(z))
+    print("{:d}".format(z))
