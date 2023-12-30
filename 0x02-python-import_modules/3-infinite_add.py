@@ -4,10 +4,10 @@ if __name__ == "__main__":
     n = len(argv)
     z = 0
     for i in range(1, n):
-        if i == '-':
-            d = -1 * int(i + 1)
+        if argv[i] == '-':
+            d = -1 * int(argv[i + 1])
             i++
         else:
-            d = int(i)
+            d = int(argv[i])
         z = z + d
     print("{:d}".format(z))
