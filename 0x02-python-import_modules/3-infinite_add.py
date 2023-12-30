@@ -6,7 +6,7 @@ if __name__ == "__main__":
     for i in range(1, n):
         if argv[i] == '-':
             d = -1 * int(argv[i + 1])
-            i++
+            i = i + 1
         else:
             d = int(argv[i])
         z = z + d
