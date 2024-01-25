@@ -6,4 +6,5 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d} ".format(i[j]), end="")
             elif j == len(i) - 1:
                 print("{:d}".format(i[j]))
-
+            else:
+                print("")
