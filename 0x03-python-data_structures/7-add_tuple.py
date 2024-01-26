@@ -9,7 +9,8 @@ def add_tuple(tuple_a=(), tuple_b=()):
     elif len(tuple_a) < len(tuple_b):
         x = len(tuple_a)
         y = len(tuple_b)
-    #for i in range(y):
+    elif len(tuple_a) == len(tuple_b):
+        x = len(tuple_a)
     for j in range(x):
         z.append(tuple_a[j] + tuple_b[j])
     for j in range(y - x):
