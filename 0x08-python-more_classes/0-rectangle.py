@@ -2,7 +2,6 @@
 """class module"""
 
 
-class Rectangle:
-    """defines rectangle"""
+class Rectangle():
+    """Empty class"""
     pass
-
