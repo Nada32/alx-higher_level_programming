@@ -1,15 +1,12 @@
 Checking for function docstring:
 
-	>>> add_integer = __import__('0-add_integer').add_integer
-	>>> len(add_integer) > 1
-	True
-	
+
 Basic usage:
 	
-	>>>add(2, 3)
+	>>> add_integer(2, 3)
 	5
 
 Test int argument:
 
-	>>>add(-1, 1)
+	>>> add_integer(-1, 1)
 	0
