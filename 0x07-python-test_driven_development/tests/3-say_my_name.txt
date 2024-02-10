@@ -1,0 +1,7 @@
+Checking for function docstring:
+
+
+Basic usage:
+
+	>>>say_my_name("John", "Smith")
+	My name is John Smith
