@@ -1,0 +1,9 @@
+Checking for function docstring:
+
+
+Basic usage:
+
+	>>> text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \Quonam modo?""")
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+	Quonam modo?
