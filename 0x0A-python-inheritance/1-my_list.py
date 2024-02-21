@@ -8,6 +8,7 @@ class Mylist(list):
     """Class inherits from list"""
     pass
 
+    @property
     def print_sorted(self):
         """meth"""
 
