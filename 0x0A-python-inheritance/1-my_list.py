@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
-===========================
-Module with class MyList
-===========================
+contains the MyList class
 """
 
 
