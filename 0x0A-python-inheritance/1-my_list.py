@@ -5,10 +5,10 @@ contains the MyList class
 
 
 class Mylist(list):
-    """ class """
+    """ Class """
     pass
 
     def print_sorted(self):
-        """meth"""
+        """Meth"""
 
         print(sorted(list(self)))
