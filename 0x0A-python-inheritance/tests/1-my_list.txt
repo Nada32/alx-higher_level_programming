@@ -1,8 +1,11 @@
-Checking for function docstring:
-
+============================================
+How to use 1-my_list.txt
+============================================
 
 Basic usage:
-        
+============
+
+:: adding items in the list        
         >>> y_list = MyList()
         >>> my_list.append(1)
         >>> my_list.append(4)
