@@ -6,7 +6,7 @@ Basic usage:
 ============
 
 :: adding items in the list        
-        >>> y_list = MyList()
+        >>> my_list = MyList()
         >>> my_list.append(1)
         >>> my_list.append(4)
         >>> my_list.append(2)
