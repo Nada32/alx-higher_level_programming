@@ -5,9 +5,10 @@ contains the MyList class
 
 
 class Mylist(list):
-    """Empty class"""
+    """Class with method print_sorted"""
     pass
 
     def print_sorted(self):
-        """meth"""
+        """Methot that sorted a list"""
+
         print(sorted(list(self)))
