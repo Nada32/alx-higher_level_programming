@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""class module"""
+"""
+contains the MyList class
+"""
 
 
 class Mylist(list):
