@@ -1,3 +1,3 @@
 -- sql.
 USE mysql;
-SHOW TABELS;
+SHOW TABLES;
