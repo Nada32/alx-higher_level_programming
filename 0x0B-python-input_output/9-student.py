@@ -9,7 +9,6 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-    @property
     def to_json(self):
         """ hi """
         return vars(self)
