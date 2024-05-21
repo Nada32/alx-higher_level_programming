@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """ module """
+
 import json
 import sys
+
 
 if __name__ == "__main__":
     """ hi """
