@@ -12,4 +12,4 @@ class Student():
     @property
     def to_json(self):
         """ hi """
-        return self.__dict__.copy()
+        return vars(self)
