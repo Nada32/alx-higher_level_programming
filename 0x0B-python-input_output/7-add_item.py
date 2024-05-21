@@ -14,7 +14,7 @@ if __name__ == "__main__":
     jsonlist = []
 
     if os.path.exists(filename):
-    json_list = load_from_json_file(filename)
+        json_list = load_from_json_file(filename)
 
     for index in argv[1:]:
         json_list.append(index)
