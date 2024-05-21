@@ -8,7 +8,8 @@ import os
 if __name__ == "__main__":
     """ hi """
     save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
-    load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
+    load_from_json_file = \
+        __import__('6-load_from_json_file').load_from_json_file
     from sys import argv
     filename = "add_item.json"
     json_list = []
