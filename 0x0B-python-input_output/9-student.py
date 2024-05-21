@@ -9,6 +9,9 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
         """ hi """
-        return vars(self)
+        x = vars(self)
+        for i in attrs:
+            if type(attrs) is list and type(i) is str:
+                return x
