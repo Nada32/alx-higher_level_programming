@@ -9,7 +9,7 @@ if (x[2] === undefined) {
 for (; i < Number(x[2]); i++) {
   let l = "";
   for (let j = 0; j < Number(x[2]); j++) {
-    l += '*';
+    l += 'X';
   }
   console.log(l);
 }
