@@ -3,7 +3,7 @@
 
 const x = process.argv;
 let i = 0;
-if (typeof (Number(x[2])) !==  'number') {
+if ((typeof (Number(x[2])) !== 'number') || x[2] === undefined) {
   console.log('Missing size');
 }
 for (; i < Number(x[2]); i++) {
