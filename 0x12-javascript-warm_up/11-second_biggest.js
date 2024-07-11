@@ -2,18 +2,21 @@
 // hi
 
 function big (a) {
-  let z = 0;
-  if ((a.length === 3)) {
+  let z = a[0];
+  if ((a.length === 3) || (a[2] === undefined)) {
     return (0);
   } else {
-      for (let i = 0; i < a.length; a++) {
-        if (z <= i) {
-          z = i;
+      for (let i = 0; i < a.length; i++) {
+        if (z <= a[i]) {
+          z = a[i];
         }
       }
-  }
-  return (z);
+    }
+    return (z);
 }
+let z = [0];
 const x = process.argv;
-const xx = Number(x[2]);
-console.log(big(xx));
+for (let i = 0; i < x.length; i++) {
+  z[i] = Number(x[i])
+}
+console.log(big(z));
