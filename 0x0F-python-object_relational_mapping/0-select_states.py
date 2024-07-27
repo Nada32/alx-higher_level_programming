@@ -17,7 +17,7 @@ if __name__ == "__main__":
         database = arg[3]
         )
     cursorObject = dataBase.cursor()
-    query = "SELECT STATES FROM STUDENT ORDERED BY ID"
+    query = "SELECT * FROM states ORDERED BY states.id"
     cursorObject.execute(query)
 
     myresult = cursorObject.fetchall()
