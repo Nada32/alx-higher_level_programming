@@ -12,9 +12,9 @@ if __name__ == "__main__":
     """
     x = MySQLdb.connect (
         host = 3306,
-        user = arg[1],
-        pw = arg[2],
-        database = arg[3]
+        user = argv[1],
+        pw = argv[2],
+        database = argv[3]
         )
     cursorObject = dataBase.cursor()
     query = "SELECT * FROM states ORDERED BY states.id"
