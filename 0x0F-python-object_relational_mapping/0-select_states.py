@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-// hi
+"""
+hi
+"""
 
 import MySQLdb
 from sys import argv
 
 if __name__ == "__main__":
-
+    """
+    hi
+    """
     x = MySQLdb.connect (
         host = 3306,
         user = arg[1],
