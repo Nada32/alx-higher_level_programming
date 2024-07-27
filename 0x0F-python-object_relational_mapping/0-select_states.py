@@ -18,11 +18,8 @@ if __name__ == "__main__":
         )
     cursorObject = dataBase.cursor()
     query = "SELECT * FROM states ORDERED BY states.id"
-    cursorObject.execute(query)
+    x = cursorObject.execute(query)
 
-    myresult = cursorObject.fetchall()
-
-    for x in myresult:
-        print(x)
-
+    for i in range(x):
+        print(cur.fetchone())
     dataBase.close()
