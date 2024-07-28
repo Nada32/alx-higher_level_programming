@@ -18,6 +18,6 @@ if __name__ == "__main__":
         port = 3306
         )
     cur = db.cursor()
-    num_rows = cur.execute("SELECT * FROM states WHERE NAME LIKE 'H' ORDER BY states.id")
+    num_rows = cur.execute("SELECT * FROM states WHERE NAME LIKE 'N' ORDER BY states.id")
     for i in range(num_rows):
         print(cur.fetchone())
