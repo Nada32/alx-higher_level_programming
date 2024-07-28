@@ -10,7 +10,7 @@ if __name__ == "__main__":
     """
     hi
     """
-    x = MySQLdb.connect (
+    dataBase = MySQLdb.connect (
         host = 3306,
         user = argv[1],
         pw = argv[2],
