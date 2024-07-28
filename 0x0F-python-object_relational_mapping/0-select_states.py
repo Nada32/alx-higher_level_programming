@@ -11,10 +11,11 @@ if __name__ == "__main__":
     hi
     """
     db = MySQLdb.connect (
-        host = 3306,
+        host = "localhost",
         user = sys.argv[1],
         pw = sys.argv[2],
-        db = sys.argv[3]
+        db = sys.argv[3],
+        port = 3306
         )
     cur = db.cursor()
     num_rows = cur.execute("SELECT * FROM states ORDER BY states.id")
