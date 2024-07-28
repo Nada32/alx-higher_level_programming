@@ -16,10 +16,7 @@ if __name__ == "__main__":
         pw = argv[2],
         database = argv[3]
         )
-    cursorObject = dataBase.cursor()
-    query = "SELECT * FROM states ORDER BY states.id"
-    x = cursorObject.execute(query)
-
-    for i in range(x):
-        print(cursorObject.fetchone())
-    dataBase.close()
+    cur = db.cursor()
+    num_rows = cur.execute("SELECT * FROM states ORDER BY states.id")
+    for i in range(num_rows):
+        print(cur.fetchone())
