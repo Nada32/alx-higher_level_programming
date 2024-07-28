@@ -21,5 +21,5 @@ if __name__ == "__main__":
     x = cursorObject.execute(query)
 
     for i in range(x):
-        print(cur.fetchone())
+        print(cursorObject.fetchone())
     dataBase.close()
