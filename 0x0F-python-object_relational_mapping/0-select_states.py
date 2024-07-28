@@ -17,7 +17,7 @@ if __name__ == "__main__":
         database = argv[3]
         )
     cursorObject = dataBase.cursor()
-    query = "SELECT * FROM states ORDERED BY states.id"
+    query = "SELECT * FROM states ORDER BY states.id"
     x = cursorObject.execute(query)
 
     for i in range(x):
