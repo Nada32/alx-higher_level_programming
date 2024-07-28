@@ -14,7 +14,7 @@ if __name__ == "__main__":
         host = 3306,
         user = argv[1],
         pw = argv[2],
-        database = argv[3]
+        db = argv[3]
         )
     cur = db.cursor()
     num_rows = cur.execute("SELECT * FROM states ORDER BY states.id")
